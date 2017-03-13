@@ -15,7 +15,7 @@
 }
 
 .section .content {
-  max-width: 42rem;
+  max-width: 49rem;
   width: 100%;
   word-spacing: 0.2rem;
 }
@@ -68,11 +68,11 @@ ul.flex li img {
   margin:0;
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#60e064+0,22b524+100 */
-  background: rgb(96,224,100); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(96,224,100,1) 0%, rgba(34,181,36,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(96,224,100,1) 0%,rgba(34,181,36,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(96,224,100,1) 0%,rgba(34,181,36,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60e064', endColorstr='#22b524',GradientType=0 ); /* IE6-9 */
+  background: rgb(199, 113, 202); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(199, 113, 202, 1) 0%, rgba(135, 56, 138, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(199, 113, 202, 1) 0%,rgba(135, 56, 138, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(199, 113, 202, 1) 0%,rgba(135, 56, 138, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c771ca', endColorstr='#87388a',GradientType=0 ); /* IE6-9 */
 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
@@ -80,8 +80,87 @@ ul.flex li img {
   /*-webkit-box-shadow: 0 0px 26px 16px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 0px 26px 16px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0px 26px 16px rgba(0, 0, 0, 0.25);*/
+
+  color: white;
 }
 
+#name span {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+#home .venn {
+  position: relative;
+  height: 336px;
+  margin-top: 3rem;
+}
+
+#home .venn .circle {
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+}
+
+#home .venn .culture {
+  left: 50%;
+  margin-left: -100px;
+  background-color: rgba(247, 88, 64, 0.1);
+}
+
+#home .venn .technology {
+  top: 135px;
+  left: 27.5%;
+  background-color: rgba(199, 113, 202, 0.1);
+}
+
+#home .venn .business {
+  top: 135px;
+  left: 47.5%;
+  background-color: rgba(57, 62, 6, 0.1);
+}
+
+#logos .flex.row {
+  margin-top: 3rem;
+  align-items: center;
+}
+
+#logos .flex.row li {
+  padding: 1.6rem;
+}
+
+#logos .seedandspark {
+  width: 200px;
+}
+
+#knowledge {
+  background: rgb(247, 88, 64); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(247, 88, 64, 1) 0%, rgba(199, 57, 34, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(247, 88, 64, 1) 0%,rgba(199, 57, 34, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(247, 88, 64, 1) 0%,rgba(199, 57, 34, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75840', endColorstr='#c73922',GradientType=0 ); /* IE6-9 */
+
+  padding: 5rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#knowledge .flex.row {
+  margin-top: 2rem;
+  color: white;
+}
+
+#knowledge li {
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+}
+
+#social .flex.row {
+  margin-top: 2rem;
+}
 
 #social img{
   width: 42px;
