@@ -3,7 +3,7 @@
 
 .section{
   width: 100vw;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
   -webkit-align-items: center;
   align-items: center;
@@ -90,6 +90,18 @@ ul.flex li img {
   margin-top: 0.8rem;
 }
 
+#headshot {
+  position: absolute;
+  top: -18rem;
+  left: calc(50% - 85px);
+}
+
+#headshot img {
+  width: 170px;
+  border-radius: 50%;
+  border: solid 2px white;
+}
+
 #home .venn {
   position: relative;
   height: 336px;
@@ -107,20 +119,19 @@ ul.flex li img {
 }
 
 #home .venn .culture {
-  left: 50%;
-  margin-left: -100px;
+  left: calc(50% - 100px);
   background-color: rgba(247, 88, 64, 0.1);
 }
 
 #home .venn .technology {
   top: 135px;
-  left: 27.5%;
+  left: calc(50% - 175px);
   background-color: rgba(199, 113, 202, 0.1);
 }
 
 #home .venn .business {
   top: 135px;
-  left: 47.5%;
+  left: calc(50% - 15px);
   background-color: rgba(57, 62, 6, 0.1);
 }
 
